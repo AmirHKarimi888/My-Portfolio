@@ -17,7 +17,7 @@ class Navbar extends BLUEPRINT {
         <nav>
             <div id="navbarLogo" class="navbar-logo">
                 <a href="/">
-                    <img alt="logo" src="./public/logo.jpg" />
+                    <img alt="logo" src="/logo.jpg" />
                 </a>
             </div>
 
