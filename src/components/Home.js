@@ -11,14 +11,14 @@ class Header extends BLUEPRINT {
                 this.selectEl("#intro div").style = "animation: fadeInBottom 2s ease 0s 1 normal forwards;"
             }
             
-            if (scrollY > this.selectEl("#intro").offsetHeight - 300) {
+            if (scrollY > this.selectEl("#intro").offsetHeight - 200) {
                 this.selectEl(".about-container .about-header").style = "animation: fadeInRight 1.5s ease 0s 1 normal forwards;"
                 this.selectEl(".about-container .about-content").style = "animation: fadeInLeft 1.5s ease 0s 1 normal forwards;"
                 this.selectEl(".about-container .technologies").style = "animation: fadeInRight 1.5s ease 0s 1 normal forwards;"
                 this.selectEl(".about-container .what-i-care").style = "animation: fadeInLeft 1.5s ease 0s 1 normal forwards;"
             }
 
-            if (scrollY > this.selectEl("#about").offsetHeight - 300) {
+            if (scrollY > this.selectEl("#about").offsetHeight - 200) {
                 this.selectEl(".contact-container .contact-header").style = "animation: fadeInRight 1.5s ease 0s 1 normal forwards;"
                 this.selectEl(".contact-container .contact-links-container").style = "animation: fadeInLeft 1.5s ease 0s 1 normal forwards;"
             }
